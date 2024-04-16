@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper
+{
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.clearfix
+{
+	float: none;
+	clear: both;
+}
+
+.table-width
+{
+	width: 100%;
+}
+.table-admin
+{
+	width: 50%;
+}
+table tr th
+{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+}
+table tr td 
+{
+	padding: 1%;
+}
+
+.btn-primary
+{
+	background-color: #5352ed;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-primary:hover
+{
+	background-color: #70a1ff;
+}
+
+.btn-secondary
+{
+	background-color: #7bed9f;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-secondary:hover
+{
+	background-color: #2ed573;
+}
+
+.btn-third
+{
+	background-color: #ef5777;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-third:hover
+{
+	background-color: #f53b57;
+}
+
+.success
+{
+	color: #2ed573;
+}
+.error
+{
+	color: #ef5777;
+}
+
+/* search order */
+.cake-search{
+    background-color: #ececec;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cake-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* menu */
+.menu
+{
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+.menu ul
+{
+	list-style-type: none;
+}
+.menu ul li
+{
+	display: inline;
+	padding: 1%;
+}
+.menu ul li a 
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff6b81;
+}
+.menu ul li a:hover
+{
+	color: #ff4757;
+}
+
+/* main content*/
+.main-content
+{
+	background-color: #ececec;
+	padding: 3% 0;
+}
+.col-4
+{
+	width: 20%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+
+
+/* footer */
+.footer
+{
+	background-color: #ff4757;
+	color: white;
+}
+
+/* login */
+.login
+{
+	width: 30%;
+	border: 1px solid black;
+	margin: 5% auto;
+	padding: 2%;
+	background-image: url(../../images/bg1.jpg);
+}
